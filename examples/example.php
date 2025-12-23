@@ -230,5 +230,4 @@ echo "📄 Markdown PDF size: " . strlen($markdownBytes) . " bytes\n";
 // Test measureText
 echo "\n📏 measureText test:\n";
 echo "\"Hello\" at 12pt = " . number_format(LittlePdf::measureText('Hello', 12), 2) . "pt\n";
-
 echo "\"Hello World\" at 24pt = " . number_format(LittlePdf::measureText('Hello World', 24), 2) . "pt\n";
