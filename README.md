@@ -18,6 +18,16 @@ Perfect for building: invoices, receipts, reports, shipping labels, tickets, cer
 
 ---
 
+## 📸 Preview
+
+### Invoice Example
+![Invoice Example](examples/invoice.png)
+
+### Shapes & Images Example
+![Shapes & Images Example](examples/example.png)
+
+---
+
 ## ✨ What's Included
 
 - ✅ **Text** — Helvetica font, any size, hex colors, left/center/right alignment
