@@ -9,3 +9,5 @@ composer.lock
 !examples/**/*.pdf
 
 PUBLISHING.md
+WEBHOOK_SETUP.md
+.env
