@@ -1,6 +1,6 @@
 {
     "name": "usaikoo/littlepdf-php",
-    "description": "Minimal PDF creation library for PHP. Less than 400 lines of code, zero dependencies, makes real PDFs.",
+    "description": "Minimal PDF creation library for PHP. ~700 lines of code, zero dependencies, makes real PDFs.",
     "type": "library",
     "keywords": [
         "pdf",

@@ -4,7 +4,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/usaikoo/littlepdf-php.svg?style=flat-square)](https://packagist.org/packages/usaikoo/littlepdf-php)
 [![License](https://img.shields.io/packagist/l/usaikoo/littlepdf-php.svg?style=flat-square)](https://packagist.org/packages/usaikoo/littlepdf-php)
 
-> **Minimal PDF creation library for PHP** — Less than 400 lines of code, zero dependencies, makes real PDFs.
+> **Minimal PDF creation library for PHP** — ~700 lines of code, zero dependencies, makes real PDFs.
 
 Port of [littlepdf](https://github.com/usaikoo/littlepdf) from TypeScript to PHP.
 
