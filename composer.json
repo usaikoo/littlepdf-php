@@ -1,0 +1,58 @@
+{
+    "name": "usaikoo/littlepdf-php",
+    "description": "Minimal PDF creation library for PHP. Less than 400 lines of code, zero dependencies, makes real PDFs.",
+    "type": "library",
+    "keywords": [
+        "pdf",
+        "pdf-generation",
+        "pdf-creation",
+        "document",
+        "minimal",
+        "zero-dependencies",
+        "littlepdf",
+        "markdown"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sai Ko"
+        }
+    ],
+    "homepage": "https://github.com/usaikoo/littlepdf-php",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/usaikoo/littlepdf-php.git"
+    },
+    "support": {
+        "issues": "https://github.com/usaikoo/littlepdf-php/issues",
+        "source": "https://github.com/usaikoo/littlepdf-php"
+    },
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "LittlePdf\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LittlePdf\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "phpstan/extension-installer": true
+        }
+    },
+    "scripts": {
+        "test:types": "phpstan analyse --memory-limit=512M",
+        "test": [
+            "@test:types"
+        ]
+    }
+}
+

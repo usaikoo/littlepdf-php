@@ -1,0 +1,10 @@
+# PHPStan Configuration for LittlePDF-PHP
+# Level 9 - Maximum strictness
+
+parameters:
+    level: 9
+    paths:
+        - src
+
+    reportUnmatchedIgnoredErrors: true
+

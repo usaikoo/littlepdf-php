@@ -1,0 +1,11 @@
+/vendor/
+composer.lock
+.phpunit.result.cache
+.DS_Store
+.idea/
+.vscode/
+*.cache
+*.pdf
+!examples/**/*.pdf
+
+PUBLISHING.md
